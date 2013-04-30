@@ -3,9 +3,12 @@ ardusat2earth
 
 Space Apps Skopje - ArduSat Challenge 
 
-As part of the NASA SpaceAppsChallenge, we decided to go with the ArduSat challenge. Our main goal is the ArduSat - Science Challenge, where we'll use both the on-board camera and the magnetometer to create a sun sensor and an Earth horizon sensor. 
-In addition to the main goal, we have also taken another challenge upon us, and that is "The percentage of how green our planet is?" We'll scan the surface of the earth and determinate how many percents of it is green (forests, parks, valleys, etc. We want to call that the life sensor, and for that we're going to use the camera and th Spectruino sensor.
+This project is solving the ArduSat challenge.
 
-All that will be visible on a website witch is going to be updated more frequently (depending on the use of the ArduSat)
+As part of the ArduSat challenge we decided to work on the Science challenge and to make an Earth horizon sensor and a Sun sensor, only by using the camera that the satellite has. 
+With the processing of the image and a little programming in Python with some easy steps and easy mathematics the sensor detects the horizon of the Earth and the program draws a red line on the place where the horizon is. On the same principles works the Sun sensor. 
+The sun is the reference point in our solar system,so it is very important to have a Sun sensor that is going to detect the Sun.
 
+Additionally we're using the magnetometer to scan the magnetic field of the planet, and in the future maybe show it in real-time on the website.
 
+All this will be visible on a website witch is going to be updated more frequently (depending on the use of the ArduSat)
